@@ -1,0 +1,21 @@
+*** Variables ***
+${login_API}        auth/login
+${get_User_Profile}     auth/getUserProfiles
+${logout_all}   auth/logoutAll
+${logout}   auth/logout
+${invite_User}  auth/sendInvite
+${get_User_Profile}    auth/getUserProfiles
+${deleteUser}   auth/deleteUser
+${changeUserName}   auth/changeName
+${changePassword}   auth/changePassword
+${changeRole}   auth/changeRole
+${forgetPassword}   service/initForgotPassword
+${updateFirebaseToken}  auth/updateFirebaseToken
+${createSaveits}   myradio/createSchedule
+${updateSaveits}    myradio/updateSchedule
+${getAllSaveIts}    myradio/getAllSaveIts/
+${getPreset}    myradio/getPresets/
+${deleteSaveIt}     myradio/deleteSchedule
+${backOfficeSignIn}     backoffice/boSignIn
+${getAllSchedules}      myradio/getSchedules/
+${getReadyForDownloadSaveIts}  myradio/getReadyForDownloadSaveIts/

@@ -1,0 +1,38 @@
+{
+  "allow_notifications": "//XCUIElementTypeButton[@name=\"Allow\"]",
+  "not_allow_notifications": "//XCUIElementTypeButton[@name=\"Don’t Allow\"]",
+
+  "new_radio_go_owner":  "//XCUIElementTypeStaticText[@name=\"I am a new RadioGo Owner\"]",
+  "new_radio_go_user": "//XCUIElementTypeStaticText[@name=\"I am a new RadioGo User\"]",
+  "already_have_account": "//XCUIElementTypeStaticText[@name=\"ALREADY HAVE AN ACCOUNT ?\"]",
+
+  "enter_email_id": "//XCUIElementTypeTextField",
+  "enter_password": "//XCUIElementTypeSecureTextField",
+  "signin_button": "//XCUIElementTypeButton[@name=\"Sign In\"]",
+  "forget_password": "//XCUIElementTypeStaticText[@name=\"FORGOT PASSWORD?\"]",
+
+  "{BottomMyRadio}":    "//XCUIElementTypeButton[@name=\"My Radio\"]",
+  "{BottomTunePresets}":  "//XCUIElementTypeButton[@name=\"Tune Presets\"]",
+  "{BottomSaveIt}":     "//XCUIElementTypeButton[@name=\"Save-It\"]",
+  "{BottomSettings}":   "//XCUIElementTypeButton[@name=\"Settings\"]",
+
+  "{SaveItPageTitle}":   "//XCUIElementTypeStaticText[@name=\"Save-It\"]",
+  "{AddSaveIt}":        "//XCUIElementTypeStaticText[@name=\"ADD SAVE-IT\"]",
+  "{ScheduleTab}":      "//XCUIElementTypeStaticText[@name=\"Schedule\"]",
+  "{DownloadTab}":      "//XCUIElementTypeStaticText[@name=\"Download\"]",
+  "{PlayTab}":         "//XCUIElementTypeStaticText[@name=\"Play\"]",
+
+  "{AddSaveItPageTitle}":       "//XCUIElementTypeStaticText[@name=\"Add Save-It\"]",
+  "{ChoosePresetTitle}":    	"//XCUIElementTypeStaticText[@name=\"Choose Preset\"]",
+  "{StartDateTitle}":           "//XCUIElementTypeStaticText[@name=\"Start Date\"]",
+  "{DurationTitle}":            "//XCUIElementTypeStaticText[@name=\"Duration\"]",
+  "{ScheduleSaveIt}":           "//XCUIElementTypeStaticText[@name=\"ADD SAVE-IT\"]",
+  "{CancelScheduleSaveIt}":     "//XCUIElementTypeStaticText[@name=\"CANCEL\"]",
+  "{CloseScheduleSaveIt}":      "//XCUIElementTypeButton[@name=\"icon close\"]",
+
+  "{DurationField}":            "//XCUIElementTypeOther[2]/XCUIElementTypeTextField,",
+  "{NameOfSaveIt}":             "//XCUIElementTypeOther[1]/XCUIElementTypeTextField,"
+}
+
+
+"//XCUIElementTypeStaticText[@name=\"Friday, Dec 18, 2020\"]"
